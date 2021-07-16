@@ -1,0 +1,103 @@
+
+/* ボタン全体 */
+.flowbtn17{
+    left: 350px;
+    margin-top: 30px;
+    border-radius:50%;
+    position:relative;
+    display:inline-block;
+    width:50px;
+    height:50px;
+    font-size:30px;
+    text-decoration:none;
+    transition:.5s;
+    background-color:#444;
+    color:#fff;
+    }
+    /* ボタンマウスホバー時のテキスト指定 */
+    .flowbtn17:hover{
+    text-decoration:none;
+    }
+    /* アイコンをど真ん中に */
+    .flowbtn17 i{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    }
+    /* Twitterマウスホバー時 */
+    .flowbtn17.fl_tw2:hover{
+    background:linear-gradient(135deg, #13f1fc 0%,#0470dc 100%);
+    }
+    /* Instagramマウスホバー時 */
+    .flowbtn17.insta_btn2:hover{
+    background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;		
+    }
+    /* YouTubeマウスホバー時 */
+    .flowbtn17.fl_yu2:hover{
+    background:linear-gradient(135deg, #f5515f 0%,#c9293c 100%);
+    }
+    /* LINEマウスホバー時 */
+    .flowbtn17.fl_li2:hover{
+    background: linear-gradient(135deg, #3a9278 0%,#00c300 100%);
+    }
+
+    /* ulタグの内側余白を０にする */
+    ul.snsbtniti2{
+    padding:0!important;
+    }
+    /* ボタン全体の位置 */
+    .snsbtniti2{
+      
+    display:flex;
+    flex-flow:row wrap;
+    }
+    /* ボタン同士の余白 */
+    .snsbtniti2 li{
+    flex:0 0 48%;
+    text-align:center !important;
+    }
+
+body{
+    background-color: rgba(248, 229, 123, 0.356);
+}
+
+
+#profile-name{
+    font-size: 450%;
+    margin-top: -103px;   
+}
+
+#profile-pic{
+    width: 1000px;
+}
+
+
+h2{
+    font-size:200%;
+    padding: 0px 50px 20px 20px;
+    font-family: 'Georgia';    
+}
+
+
+li{
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.Introduction,p{
+    font-family: sans-serif;
+    font-size: 19px; 
+}
+
+.under1{
+    background: linear-gradient(transparent  70%, #ffc037  70%);
+}
+.under2{
+    background: linear-gradient(transparent  70%, #f0735d  70%);
+    }
+
